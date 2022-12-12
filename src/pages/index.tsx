@@ -2,12 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
-interface Props {
-  children: React.ReactNode
-}
-
-export default function Home(props: Props) {
-  const a = 1
+export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
